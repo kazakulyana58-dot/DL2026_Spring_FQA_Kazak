@@ -2,7 +2,6 @@ import { test, expect } from '@playwright/test';
 
 test.describe('Automation Test Store - Финальные тесты', () => {
 
-  // Общий таймаут для медленного сайта
   test.setTimeout(90000);
 
   test.beforeEach(async ({ page }) => {
