@@ -3,17 +3,18 @@
 Автоматизированные end-to-end тесты для сайта **Automation Test Store** на **Playwright + TypeScript**.
 
 ## Быстрый запуск
-### 1. Клонировать репозиторий
+
+### Клонировать репозиторий
 ```bash
 git clone https://github.com/kazakulyana58-dot/DL2026_Spring_FQA_Kazak.git
 cd DL2026_Spring_FQA_Kazak
 ```
 ### 2. Установить зависимости
-```Bash 
+```Bash
 npm install
 ```
 ### 3. Установить браузеры Playwright (выполнить один раз)
-```Bash
+```bash
 npx playwright install --with-deps
 ```
 ### 4. Запуск тестов
