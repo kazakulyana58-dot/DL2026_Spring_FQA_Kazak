@@ -1,0 +1,30 @@
+{
+  "name": "dl2026_spring_fqa_kazak",
+  "version": "1.0.0",
+  "description": "Автоматизированные тесты для Automation Test Store (Playwright + TypeScript)",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:report": "playwright show-report",
+    "test:debug": "playwright test --debug",
+    "test:headed:debug": "playwright test --headed --debug"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kazakulyana58-dot/DL2026_Spring_FQA_Kazak.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/kazakulyana58-dot/DL2026_Spring_FQA_Kazak/issues"
+  },
+  "homepage": "https://github.com/kazakulyana58-dot/DL2026_Spring_FQA_Kazak#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^25.5.0"
+  }
+}
