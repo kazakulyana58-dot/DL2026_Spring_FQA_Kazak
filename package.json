@@ -1,7 +1,7 @@
 {
   "name": "dl2026_spring_fqa_kazak",
   "version": "1.0.0",
-  "description": "Автоматизированные тесты для Automation Test Store (Playwright + TypeScript)",
+  "description": "автоматизированные тесты для Automation Test Store (Playwright + TypeScript)",
   "main": "index.js",
   "scripts": {
     "test": "playwright test",
